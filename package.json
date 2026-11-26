@@ -1,0 +1,52 @@
+{
+  "name": "dsh-terminal-workspace",
+  "version": "0.1.0",
+  "description": "iTerm-style terminal workspace in the left sidebar of DeepSeek Harness: tabs, split panes, draggable gutters, and the last screen of every pane restored after a restart.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "assets",
+    "docs",
+    "icon.svg",
+    "screenshots.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build-chunk.mjs"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "terminal",
+    "xterm",
+    "tabs",
+    "split-panes",
+    "iterm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datty258/dsh-terminal-workspace.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

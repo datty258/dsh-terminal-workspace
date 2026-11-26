@@ -1,0 +1,67 @@
+<svg width="640" height="300" viewBox="0 0 640 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="300" rx="10" fill="#101418" />
+
+  <rect x="24" y="20" width="592" height="260" rx="8" fill="#171C22" stroke="#2A323C" />
+
+  <!-- title bar: the panel title, then the tab strip, then the new-tab button -->
+  <rect x="42" y="38" width="46" height="5" rx="2.5" fill="#C4CDD6" />
+
+  <!-- active tab: accent underline, as the panel draws it -->
+  <rect x="108" y="29" width="104" height="24" rx="6" fill="#1F2A36" />
+  <path d="M120 36.5 124 40.5 120 44.5" stroke="#69B9FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="129" y="39" width="26" height="3" rx="1.5" fill="#8FA3B8" />
+  <rect x="108" y="51" width="104" height="2" rx="1" fill="#69B9FF" />
+
+  <!-- inactive tab -->
+  <path d="M232 36.5 236 40.5 232 44.5" stroke="#5C6875" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="241" y="39" width="22" height="3" rx="1.5" fill="#5C6875" />
+
+  <circle cx="596" cy="41" r="9.5" fill="#232B34" />
+  <path d="M596 36.5v9M591.5 41h9" stroke="#8FA3B8" stroke-width="1.7" stroke-linecap="round" />
+  <rect x="24" y="58" width="592" height="1" fill="#232B34" />
+
+  <!-- left pane: header (title, cwd, three buttons) then shell output -->
+  <rect x="32" y="68" width="280" height="200" rx="7" fill="#0F1418" stroke="#2A323C" />
+  <rect x="32" y="68" width="280" height="26" rx="7" fill="#1B222A" />
+  <rect x="32" y="86" width="280" height="8" fill="#1B222A" />
+  <rect x="42" y="79" width="22" height="3" rx="1.5" fill="#C4CDD6" />
+  <rect x="150" y="79" width="64" height="3" rx="1.5" fill="#5C6875" />
+  <g stroke="#8FA3B8" stroke-width="1.2" fill="none">
+    <rect x="250" y="75" width="12" height="11" rx="2" /><path d="M256 75v11" />
+    <rect x="267" y="75" width="12" height="11" rx="2" /><path d="M267 80.5h12" />
+    <path d="M289 76.5l7 7M296 76.5l-7 7" stroke-linecap="round" />
+  </g>
+
+  <path d="M44 100l6 6-6 6" stroke="#45E7A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="56" y="105" width="82" height="3" rx="1.5" fill="#8FA3B8" />
+  <rect x="44" y="124" width="196" height="3" rx="1.5" fill="#3B4653" />
+  <rect x="44" y="136" width="164" height="3" rx="1.5" fill="#3B4653" />
+  <rect x="44" y="148" width="212" height="3" rx="1.5" fill="#3B4653" />
+  <rect x="44" y="160" width="120" height="3" rx="1.5" fill="#3B4653" />
+  <path d="M44 180l6 6-6 6" stroke="#45E7A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="56" y="184" width="10" height="9" rx="1.5" fill="#69B9FF" />
+
+  <!-- the draggable gutter between the panes -->
+  <rect x="314" y="72" width="6" height="192" rx="3" fill="#3F5C7A" opacity="0.5" />
+
+  <!-- right pane, active: accent border -->
+  <rect x="322" y="68" width="286" height="200" rx="7" fill="#0F1418" stroke="#69B9FF" />
+  <rect x="322" y="68" width="286" height="26" rx="7" fill="#1B222A" />
+  <rect x="322" y="86" width="286" height="8" fill="#1B222A" />
+  <rect x="332" y="79" width="22" height="3" rx="1.5" fill="#C4CDD6" />
+  <rect x="440" y="79" width="64" height="3" rx="1.5" fill="#5C6875" />
+  <g stroke="#8FA3B8" stroke-width="1.2" fill="none">
+    <rect x="538" y="75" width="12" height="11" rx="2" /><path d="M544 75v11" />
+    <rect x="555" y="75" width="12" height="11" rx="2" /><path d="M555 80.5h12" />
+    <path d="M578 76.5l7 7M585 76.5l-7 7" stroke-linecap="round" />
+  </g>
+
+  <path d="M334 100l6 6-6 6" stroke="#45E7A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="346" y="105" width="64" height="3" rx="1.5" fill="#8FA3B8" />
+  <rect x="334" y="124" width="188" height="3" rx="1.5" fill="#3B4653" />
+  <rect x="334" y="136" width="142" height="3" rx="1.5" fill="#3B4653" />
+  <rect x="334" y="148" width="204" height="3" rx="1.5" fill="#3B4653" />
+  <rect x="334" y="160" width="112" height="3" rx="1.5" fill="#3B4653" />
+  <path d="M334 180l6 6-6 6" stroke="#45E7A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="346" y="184" width="10" height="9" rx="1.5" fill="#69B9FF" />
+</svg>

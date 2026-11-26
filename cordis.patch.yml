@@ -1,0 +1,10 @@
+# dsh-terminal-workspace bundle patch.
+#
+# One Loader row mounts the package. The row carries both halves:
+#   - Host: index.js exports a no-op `apply` (this plugin adds no Host service;
+#     the shells it drives belong to @deepseek-ai/dsh-api-terminal-controller).
+#   - Client: package.json#dsh.client serves client/client.js, which registers a
+#     sidebar row and its main panel.
+- insert:
+    - id: terminal-workspace
+      name: 'dsh-terminal-workspace'

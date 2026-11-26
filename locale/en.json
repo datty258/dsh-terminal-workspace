@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Terminal workspace",
+    "detail": "docs/DETAIL.md",
+    "description": "An iTerm2-style terminal workspace in the left sidebar: one global panel with tabs, and each tab split into panes, with draggable gutters between them. It is not tied to a conversation — your tabs and splits follow you as you move between them. Every pane drives a shell the built-in terminal service owns, so processes survive tab switches and page reloads. Open it from the Terminal row in the sidebar. Use the + button for a new tab, double-click a tab to rename it, and the split buttons in a pane header (or ⌘D / ⌘⇧D; Alt+Shift+D / Alt+Shift+E elsewhere) to divide it. Closing a pane or tab ends its shell. Restarting the app ends every shell, but each pane keeps its last screen and shows it again when you reopen the panel."
+  }
+}
