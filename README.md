@@ -3,6 +3,8 @@
 **A real terminal, docked in the left sidebar of DSH — one iTerm2-shaped window
 with tabs, split panes, and draggable gutters.**
 
+English | [中文](README.zh.md)
+
 ![Two tabs, one split into two panes with a draggable gutter](assets/screenshot-1.png)
 
 DeepSeek Harness gives you a terminal in the conversation sidebar, but it is
