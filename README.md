@@ -4,6 +4,19 @@ An iTerm2-style terminal workspace in the DeepSeek Harness Web UI, shaped like
 the terminal emulator people already use: a tab strip on top, and every tab
 split into panes.
 
+## Install
+
+```sh
+dsh plugin --profile <your-profile> add dsh-terminal-workspace
+```
+
+Then open **Plugins** in the sidebar and turn the bundle on; a **Terminal** row
+appears in the left sidebar. Enable the whole bundle rather than its single row,
+and restart the app once so the client bundle is loaded.
+
+Requires DeepSeek Harness 0.2.2-rc.1 or newer (`engines.dsh` is
+`>0.2.2-rc.0 <0.3.0-0`).
+
 ## What it adds
 
 - A **Terminal** row in the left sidebar (below *Plugins*), opening one

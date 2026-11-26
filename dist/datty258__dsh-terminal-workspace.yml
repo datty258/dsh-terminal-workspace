@@ -1,0 +1,7 @@
+url: https://github.com/datty258/dsh-terminal-workspace
+name: datty258/dsh-terminal-workspace
+category: ui
+icon: https://raw.githubusercontent.com/datty258/dsh-terminal-workspace/main/assets/icon-180.png
+description:
+  en: 'iTerm2-style terminal workspace in the left sidebar: one global tab strip, every tab split into panes with draggable gutters, and each pane keeps its last screen so it comes back after a restart.'
+  zh: '左侧栏里的 iTerm2 式终端工作区：全局共用的标签页，每个标签页可左右、上下分屏且分隔条可拖动，每个分屏保留最后一次的屏幕内容，重启后仍可回看。'
