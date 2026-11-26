@@ -1,18 +1,15 @@
 # Publishing checklist
 
-The package is ready to publish; the steps below need GitHub / npm credentials
-that this session does not have.
+The repository is pushed to <https://github.com/datty258/dsh-terminal-workspace>
+and the package is ready. What remains needs npm credentials.
 
-## 1. Push the repository
+## 1. Push the repository — done
 
-```sh
-cd dsh-plugins/dsh-terminal-workspace
-git remote add origin git@github.com:datty258/dsh-terminal-workspace.git
-git push -u origin main
-```
+<https://github.com/datty258/dsh-terminal-workspace> is public, `main` is pushed.
+Push any later commit with `git push`.
 
-The repository must be **public** and at least **1 day old** before
-awesome-dsh-plugin's gate accepts it.
+The repository must be at least **1 day old** before awesome-dsh-plugin's gate
+accepts it (created 2026-11-26).
 
 ## 2. Publish to npm
 
@@ -37,7 +34,7 @@ confirm `dist-tags.latest` equals `0.1.0` **and** the tarball downloads.
 ## 3. awesome-dsh-plugin
 
 Open a PR adding exactly one file, `data/plugins/datty258__dsh-terminal-workspace.yml`
-(a copy is in `dist/`). This is the index DSH's built-in Discover tab reads.
+(a copy is in `submission/`). This is the index DSH's built-in Discover tab reads.
 
 CI checks: at most 3 entries per PR, `dsh.bundle` present in the repo, repo age
 ≥ 1 day, awesome-lint, and that the READMEs regenerate. A maintainer then reads
